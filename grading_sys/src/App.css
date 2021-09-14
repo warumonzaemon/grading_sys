@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  background-color: rgb(250,249,212);
+}
+
+.bg-image {
+  background-image: url('https://wallpapercave.com/wp/wp6517788.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.bg-color {
+  background-color: rgb(250,249,212);
+}
+
+.Header {
+  background-image: linear-gradient(to right, rgb(47,147,253) , rgb(203, 223, 245));
+  min-height: 15vh;
+  padding-bottom: .5%;
+}
+
+.trapezoid-border {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.trapezoid {
+  display: flex;
+  /* padding: 2em 4em; */
+  position: relative;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  
+}
+
+.trapezoid::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 2em solid white;
+  border-left: 1em solid transparent;
+  border-right: 1em solid transparent;
+}
+
+.trapezoid-left {
+  width: 70%;
+  text-align: left;
+  margin-left: 3%;
+}
+.trapezoid-right {
+  width: 30%;
+  text-align: right;
+  margin-right: 3%;
+}
+.trapezoid a, .trapezoid span {
+  color: rgb(16, 95, 179);
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 1%;
+  margin-top: 2%;
+}
+
+.trapezoid img {
+  color: rgb(16, 95, 179);
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 1%;
+  margin-top: 1%;
+}
+
+.thumbnail {
+  width: 3%;
+  vertical-align: -8%;
+}
+
+.thumbnail2 {
+  width: 10%;
+  
+}
+
+.sub-header {
+  width: 100%;
+  margin: 1% auto;
+  text-align: center;
+  font-family: 'Graduate', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-sub-header {
+  width: 16%;
+ 
+}
+.sub-sub-header a {
+  margin: 0;
+}
+
+.school-name {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0%;
+  justify-content: center;
+}
+
+.links {
+  width: 10%;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logo {
+  width: 30%;
+}
+
+.logo-text {
+  width: 60%;
+}
+
+.logout {
+  color: black;
+}
+
+h1 p {
+
+  margin: 0;
+  padding: 0;
+}
+
+.greeting {
+  margin: 1%;
+}
+
+
+/* .container-bg {
+  background-color: rgb(250,249,212);
+  height: 43.9vw;
+} */
+
+
+table {
+  border-collapse: collapse;
+}
+
+.table {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: center;
+  
+  height: 40px;
+}
+
+.sub-table td {
+  border: none;
+  border-right: 1px solid black;
+}
+
+.sub-table td:last-child {
+  border: none;
+}
+
+.title-row {
+  background-color: rgb(112, 175, 242);
+}
+
+.nested-table {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.main-row:nth-child(even){
+  background-color: white !important;
+}
+  
+.main-row:nth-child(odd){
+  background-color: rgb(158, 255, 202) !important;
+  
+}
+
+
+.bg-danger {
+  background-color: rgb(209, 32, 32);
+}
+
+.bg-warning {
+  background-color: orangered;
+}
+
+.td-padding {
+  padding: 0 10px;
+}
+
+.message {
+  text-align: center;
+  font-size: 200%;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.Analytics {
+  display: flex;
+  /* margin-top: 2%; */
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.Analytics div {
+  margin: 20px;
+}
+
+.ChartName {
+  text-align: center;
+}
+
+
+
+.Updates {
+  background-color: rgb(112, 175, 242);
+  padding: 1%;
+  width: 50%;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px #888888;
+}
+
+.Updates h2 {
+  text-align: center;
+}
+
+.Record {
+  margin: 0 100px;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  width: 20%;
+  background-color: rgb(112, 175, 242);
+  text-align: center;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+.form-input {
+  display: block;
+  margin: 0 auto;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  
+  background-color: rgb(112, 175, 242);
+  font-size: 70%;
+  text-align: center;
+}
+
+
+/* .footer-buffer {
+  min-height: 20vw;
+} */
+
+.app-name {
+  width: 50%;
+  position: relative;
+  bottom: 118px;
+  left: 50px;
+  color: white;
+  font-size: 90%;
+}
+
+

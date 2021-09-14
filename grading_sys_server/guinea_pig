@@ -1,0 +1,154 @@
+{   
+    "firstName": "Jericho",
+    "lastName": "Fontiveros",
+    "middleName": "Lorenzo",
+    "userId": "2021-00001",
+    "email": "jericho@email.com",
+    "role": "teacher",
+    "gradeLevel": "12",
+    "section": "1",
+    "password": "1234"
+}
+
+{
+    "_id" : ObjectId("61363323cd3c435269038af0"),
+    "userId" : "2021-00002",
+    "recitations" : [
+        {
+            "topic"         : "Mendel’s Laws of Inheritance",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        },
+        {
+            "topic"         : "Sex Linkage",
+            "score"         : 12,
+            "maxScore"      : 20,
+            "percentage"    : 
+        }, 
+        {
+            "topic"         : "Central Dogma of Molecular Biology",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        }, 
+        {
+            "topic"         : "Recombinant DNA",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        } ],
+    "projects" : [
+        {
+            "topic"         : "Genetic Diseases Research Paper",
+            "percentage"    : 70
+        },
+        {
+            "topic"         : "Evolution of  domesticated crops",
+            "percentage"    : 70
+        } ],
+    "quarterExams" : [
+        {
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        }
+    ],
+    "assignments" : [
+        {
+            "topic"         : "Mendel’s Laws of Inheritance",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        },
+        {
+            "topic"         : "Sex Linkage",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        }, 
+        {
+            "topic"         : "Central Dogma of Molecular Biology",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        }, 
+        {
+            "topic"         : "Recombinant DNA",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        }
+        
+    ],
+    "quizzes" : [
+        {
+            "topic"         : "Mendel’s Laws of Inheritance",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        },
+        {
+            "topic"         : "Sex Linkage",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        }, 
+        {
+            "topic"         : "Central Dogma of Molecular Biology",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        }, 
+        {
+            "topic"         : "Recombinant DNA",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        } ],
+    "projects" : [
+        {
+            "topic"         : "Genetic Diseases Research Paper",
+            "percentage"    : 70
+        },
+        {
+            "topic"         : "Evolution of  domesticated crops",
+            "percentage"    : 70
+        } ],
+    "quarterExams" : [
+        {
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        }
+    ],
+    "assignments" : [
+        {
+            "topic"         : "Mendel’s Laws of Inheritance",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        },
+        {
+            "topic"         : "Sex Linkage",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        }, 
+        {
+            "topic"         : "Central Dogma of Molecular Biology",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        }, 
+        {
+            "topic"         : "Recombinant DNA",
+            "score"         : 9,
+            "maxScore"      : 20,
+            "percentage"    : 70
+        }
+
+    ],
+    "overallGrades" : null,
+    "__v" : 0
+}
